@@ -2,17 +2,17 @@ using System;
 
 class Program {
   public static void Main (string[] args) {
-    //Atividade 3
-    Console.WriteLine("Faça sua media de notas do ano");
-    Console.WriteLine("Coloque a primeira nota:");
+    //Exemplo 03
+    Console.WriteLine("Faça a média das notas do seu ano");
+    Console.WriteLine("Coloque a primeira nota: ");
     string nota1 = Console.ReadLine();
     int nota1_int = int.Parse(nota1);
 
-    Console.WriteLine("Coloque a segunda nota:");
+    Console.WriteLine("Coloque a segunda nota: ");
     string nota2 = Console.ReadLine();
     int nota2_int = int.Parse(nota2);
 
-    Console.WriteLine("Coloque a terceira nota:");
+    Console.WriteLine("Coloque a terceira nota: ");
     string nota3 = Console.ReadLine();
     int nota3_int = int.Parse(nota3);
 
